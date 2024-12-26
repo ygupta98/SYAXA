@@ -1,0 +1,13 @@
+
+
+  CREATE MASK CUST_NOADR_if_not_privileged ON customer AS c
+    FOR COLUMN CULINE1
+    RETURN  CASE
+  WHEN
+   C.CUCAT  <> 'X ' THEN C.CULINE1
+
+ WHEN
+    PRIVILEGE = 1 THEN C.CULINE1
+  ELSE '**********'
+  END
+  ENABLE

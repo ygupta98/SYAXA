@@ -1,0 +1,12 @@
+
+  CREATE MASK CUST_NOEML_if_not_privileged ON customer AS c
+    FOR COLUMN CUMAIL
+    RETURN  CASE
+  WHEN
+   C.CUCAT  <> 'X ' THEN C.CUMAIL
+
+ WHEN
+    PRIVILEGE = 1 THEN C.CUMAIL
+  ELSE '**********'
+  END
+  ENABLE

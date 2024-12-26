@@ -1,3 +1,19 @@
+      *%CSTD===========================================================*
+      ** Application. : SYAXA      app for github testing              *
+      ** Component. . : ART200                        Type: SQLRPGLE   *
+      **===============================================================*
+      ** Sub-system . :                                                *
+      ** Function . . :                                                *
+      ** Sub-function :                                                *
+      **%S=============================================================*
+      ** Description of functions:                                     *
+      **                                                               *
+      **                                                               *
+      **                                                               *
+      **%E=============================================================*
+      ** AUTHOR:                          00:00                        *
+      ** MODIFS: 01 YGUPTA     12/26/2024 09:21  FT.00.00    00/       *
+      *%ECSTD==========================================================*
 
      h dftactgrp(*no) bnddir('SAMPLE')
 
@@ -375,6 +391,8 @@
        endsr;
        //--------INITIALIZATION ----------------------------------
        begsr *inzsr;
+       //modified by yash
+       //modified by yash2
        endsr;
        //--------END SUBROUTINE ----------------------------------
        begsr pnl00;

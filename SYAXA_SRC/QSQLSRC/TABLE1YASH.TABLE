@@ -1,6 +1,6 @@
      --%CSTD===========================================================*
      --* Application. : SYAXA      app for github testing              *
-     --* Component. . : TABLE1                        Type: TABLE      *
+     --* Component. . : TABLE1YASH                    Type: TABLE      *
      --*===============================================================*
      --* Sub-system . :                                                *
      --* Function . . :                                                *
@@ -11,10 +11,10 @@
      --*                                                               *
      --*                                                               *
      --*%E=============================================================*
-     --* AUTHOR:    YGUPTA     04/29/2025 09:28  FT.00.00              *
-     --* MODIFS: ** YGUPTA     04/29/2025 09:28  FT.00.00    00/       *
+     --* AUTHOR:    YGUPTA     04/29/2025 09:51  FT.00.00              *
+     --* MODIFS: ** YGUPTA     04/29/2025 09:51  FT.00.00    00/       *
      --%ECSTD==========================================================*
-   CREATE TABLE TABLE1 (
+   CREATE TABLE TABLE1YASH(
        PERSONID INT,
        LASTNAME VARCHAR(255),
        FIRSTNAME VARCHAR(255),

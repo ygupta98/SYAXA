@@ -1,0 +1,23 @@
+     --%CSTD===========================================================*
+     --* Application. : SYAXA      app for github testing              *
+     --* Component. . : TABLE5YASH                    Type: TABLE      *
+     --*===============================================================*
+     --* Sub-system . :                                                *
+     --* Function . . :                                                *
+     --* Sub-function :                                                *
+     --*%S=============================================================*
+     --* Description of functions:                                     *
+     --*                                                               *
+     --*                                                               *
+     --*                                                               *
+     --*%E=============================================================*
+     --* AUTHOR:    YGUPTA     04/29/2025 12:01  01.00.05              *
+     --* MODIFS: ** YGUPTA     04/29/2025 12:01  01.00.05    00/       *
+     --%ECSTD==========================================================*
+   CREATE TABLE TABLE5YASH (
+       PERSONID INT,
+       LASTNAME VARCHAR(255),
+       FIRSTNAME VARCHAR(255),
+       ADDRESS VARCHAR(255),
+       CITY VARCHAR(255)
+   );
